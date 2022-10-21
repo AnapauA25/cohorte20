@@ -1,0 +1,19 @@
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+
+    border: 2px solid rgb(77, 13, 107);
+    width: 100px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px ;
+    padding: 20px;
+}
+.texto{
+    font-family: cursive;
+    font-size: 20px;
+    font-style: italic;
+
+    color: rgb(221, 94, 189);
+    
+}

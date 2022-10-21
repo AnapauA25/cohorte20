@@ -1,0 +1,28 @@
+p {
+    color: blueviolet;    
+}
+
+/*selector universal*/
+*{
+    color: orange;
+}
+em {
+    color: crimson;
+}
+span{
+    color: cadetblue;
+}
+/*selector de clase*/
+.titulo {
+    color: blue;
+}
+.bl{
+    float:right;
+    background-color: black;
+    color: azure;
+    
+}
+/*selecor ID*/
+#selector {
+    color: brown;
+}

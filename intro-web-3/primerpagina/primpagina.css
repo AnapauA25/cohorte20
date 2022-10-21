@@ -1,0 +1,19 @@
+/*h1, nav, i, em, strong*/
+h1{
+    color: lightpink;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+ #cuadro {
+    border: 5px solid  rgb(77, 13, 107);
+    width: 200x;
+    height: 50px;
+    overflow: scroll;
+ }
+
+ .letras{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(150, 12, 89);
+    font-size: medium;
+ }
+
