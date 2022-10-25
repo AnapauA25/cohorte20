@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--tipo de caracteres que vamos a estar usando -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--escala no zoom-->
+    <link rel="stylesheet" href="/assets/css/formularios.css">
+        <title>Formularios </title>
+</head>
+<body>
+    <!-- de tipo bloque y de tipo linea-->
+    <h1>Formulario</h1>
+
+    <form>
+        <div> 
+            <label for="nombre"> Nombre</label>
+        <input class="campo" type="text" name="nombre" id="nombre"
+        placeholder="Nombre empezando por apellidos" required>
+    </div>
+
+    <div>
+        <label for="email">Email </label>
+        <input class="campo" type="email" name="email" id="email"
+        placeholder="correo con @" required>
+    </div>
+    <div>
+        <label for="password"> Contrasena</label>
+    <input class="campo" type="password" name="password" id="password"
+    placeholder="123" required>
+    </div>
+    <div>
+        <label for="recordar">Recordar</label>
+        <input type="checkbox" name="recordar" id="recordar">
+    </div>
+    <div>
+        <input type="submit" value="Enviar" id="btn">
+    </div>
+    </form>
+
+</body>
+</html>
