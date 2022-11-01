@@ -1,0 +1,51 @@
+.container{
+    background: blueviolet;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 10px;
+}
+.uno{
+    background-color: deepskyblue;
+}
+.dos{
+    background-color: seagreen;
+}
+
+.row{
+    background-color: burlywood;
+}
+.ancho{
+    background-color: lime;
+}
+
+body{
+    padding: 30px;
+}
+
+.nuno{
+    background-color: darkorange;
+}
+
+.ntres{
+    background-color: brown;
+}
+.ocho{
+    background-color: darkcyan;
+}
+.cuatro{
+    background-color: goldenrod;
+}
+
+.one{
+    background-color: mediumslateblue;
+}
+.two{
+    background-color: mediumseagreen;
+}
+.three{
+    background-color: mediumturquoise;
+}
+.four{
+    background-color: midnightblue;
+}

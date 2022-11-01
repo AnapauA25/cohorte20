@@ -1,0 +1,56 @@
+.first{
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 0;
+}
+.pegado{
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.padre{
+    border: 3px dashed white;
+    height: 500px;
+}
+
+.cuadro{
+   
+    width: 200px;
+    height: 120px;
+    margin: 0;
+
+}
+
+.uno{
+    background-color: blue;
+    position: relative;
+    top: 100;
+    
+}
+
+.dos{
+    background-color: crimson;
+    position: relative;
+    bottom: 430px;
+    left: 300px;
+    
+    
+}
+.tres{
+    background-color: yellow;
+    position: relative;
+    bottom: 870px;
+    left: 600px;
+
+}
+.primeros{
+    background-color: gray;
+    color: white;
+    margin-top: 0;
+    
+}
+
+.pie{
+    background-color: darkcyan;
+    color: black;
+}
