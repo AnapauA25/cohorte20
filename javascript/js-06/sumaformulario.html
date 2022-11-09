@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>suma</title>
+</head>
+<body>
+ <!--    <h1>Suma</h1>
+    <form id="formulario">
+       Digito 1
+         <input type="number" name="digito1" value="0"> <br>
+         Digito 2
+         <input type="number" name="digito2" value="0">
+
+    </form>
+    <button onclick="sumar()">suma</button> <br>
+
+    <div id="resultado">Resultado</div>
+    <script>
+        
+        function sumar(){
+            let formulario = document.forms['formulario']
+           let resultado =0;
+            for (const elemento of formulario){
+        resultado += Number(elemento.value);
+
+            }
+            document.getElementById('resultado').innerHTML = resultado;
+        }
+    </script> -->
+
+<!-- Manejo de cocument.write
+<h1>Ejemplo Dom document.write</h1>
+<h2>Otro mensaje</h2>
+<button onclick="cambio()">Mostrar</button>
+
+<script>
+    function cambio(){
+
+        document.write("Saludo"); //me borra y va a otra pagina suplanta el contenido de la pagina
+
+    }
+   
+</script> -->
+
+<!-- DOM Imagenes -->
+<h1>DOM Imagenes</h1>
+<button onclick="cambiar()">cambio</button>
+<br>
+<img id="imagen" src="/31ead46534bf26666429359094d19c1a.jpg" alt="cachorro">
+
+<script>
+    function cambiar(){
+        document.getElementById("imagen").src="lobo.jpg.webp";
+    }
+</script>
+
+
+</body>
+</html>

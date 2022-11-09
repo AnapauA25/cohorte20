@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Formularios en DOM</title>
+</head>
+<body>
+    <h1>Datos personales</h1>
+    <form id="formulario">
+        <label for="">Nombre</label>
+         <input type="text" name="nombre" value="Juan"> <br>
+         <label for="">Apellido</label>
+         <input type="text" name="Apellido" value="Perez">
+
+    </form>
+    <button onclick="mostrarvalores()">Mostrar</button> <br>
+
+    <div id="valores">valores</div>
+    <script>
+        //en este caso se debe llamar igual que el boton
+        function mostrarvalores(){
+            let formulario = document.forms['formulario']
+            let texto = " ";
+            for (let elemento of formulario){ //for of
+        texto += elemento.value + '</br>';
+
+            }
+            document.getElementById('valores').innerHTML = texto;
+        }
+    </script>
+
+
+</body>
+</html>

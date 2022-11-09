@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .azul{
+            color:blue;
+        }
+    </style>
+    <title>Manipulacion del DOM</title>
+</head>
+
+<body>
+    <h1 id="titulo">Ejemplo de DOM</h1>
+    
+    <p class="azul">Saludos desde el DOM Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio unde fuga nobis maiores quo vel!</pre>
+    <p class="azul">Otro parrafo...</p>
+
+    <script>
+        //innerHTML accede al contenido de la etiqueta
+        let etiqueta = document.getElementById("titulo");
+        console.log("Valor de titulo " + etiqueta.innerHTML);
+/*
+        let etiqueta2 = document.getElementById("parrafo1");
+        console.log("El texto es: "+ etiqueta2.innerHTML);
+       
+        //getElementByTagName lo hace con el nombre de la etiqueta
+        let parrafos = document.getElementsByTagName("p");
+        for(let i=0; i < parrafos.length; i++){
+            console.log("No. de parrafos = parrafos: ${parrafos[i].innerHTML}");
+        }*/
+    //Recuperar elementos con clase con la funcion getElementByclassName
+        let parrafo3 = document.getElementsByClassName("azul")
+        console.log(`No. = elementos:  ${parrafo3.length}`);
+
+        for(let elemento of parrafo3){
+            
+            console.log(`${elemento.innerHTML}`)      
+        }
+
+    //FORMULARIOS
+    <form>
+        
+    </form>
+
+
+
+    </script>
+</body>
+</html>
