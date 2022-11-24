@@ -7,7 +7,7 @@ function miNombre(){
 }
 
 miNombre ();
-
+//---------------------------------
 function funcionUno(){
     let valor = 2;
     valor = valor +3;
@@ -16,7 +16,7 @@ function funcionUno(){
 
 let resultado = funcionUno();
 console.log("el resultado es: ", resultado);
-
+//-----------------------------------------------
 function funcionEjemplo(){
     let valor1 =2;
     valor1 = valor1 + 3;
